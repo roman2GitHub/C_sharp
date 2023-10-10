@@ -7,11 +7,11 @@ public class Answer
         // Введите свое решение ниже
         if (firstNumber > secondNumber)
         {
-            Console.WriteLine("Первое число " + firstNumber + " больше чем второе число " + secondNumber);
+            Console.WriteLine("Первое число '" + firstNumber + "' больше чем второе число " + secondNumber);
         }
         else if (firstNumber < secondNumber)
         {
-            Console.WriteLine("Первое число " + firstNumber + " меньшее чем второе число " + secondNumber);
+            Console.WriteLine("Первое число `" + firstNumber + "` меньшее чем второе число `" + secondNumber + "`");
         }
         else
         {
@@ -35,7 +35,7 @@ public class Answer
         {
             // Здесь вы можете поменять значения для отправки кода на Выполнение
             firstNumber = 7;
-            secondNumber = 7;
+            secondNumber = 8;
         }
 
         // Не удаляйте строки ниже
